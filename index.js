@@ -9,6 +9,6 @@ app.all('/', async function (req, res) => {
   console.log(response2)
     
     console.log("Just got a request!")
-    res.send({response2})
+    res.send(response2)
 })
 app.listen(process.env.PORT || 3000)
